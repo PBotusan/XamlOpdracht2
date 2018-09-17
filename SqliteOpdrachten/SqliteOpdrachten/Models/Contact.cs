@@ -1,19 +1,26 @@
-﻿using System;
+﻿using SQLite;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Text;
 
 namespace SqliteOpdrachten.Models
 {
-   public class Contact : INotifyPropertyChanged
+    public class Contact : INotifyPropertyChanged
     {
+        //public event PropertyChangedEventHandler PropertyChanged;
+
         private string _firstName;
         private string _lastName;
         private string _phone;
         private string _email;
 
 
-        public int Id { get; set;}
+
+        [PrimaryKey, AutoIncrement]
+        public int Id { get; set; }
+
+        [MaxLength(255)]
         public string FirstName
         {
             get { return _firstName; }
@@ -30,6 +37,7 @@ namespace SqliteOpdrachten.Models
 
         }
 
+        [MaxLength(255)]
         public string LastName
         {
             get { return _lastName; }
@@ -46,7 +54,7 @@ namespace SqliteOpdrachten.Models
 
         }
 
-
+        [MaxLength(20)]
         public string Phone
         {
             get { return _phone; }
@@ -62,7 +70,7 @@ namespace SqliteOpdrachten.Models
             }
         }
 
-
+        [MaxLength(255)]
         public string Email
         {
             get { return _email; }

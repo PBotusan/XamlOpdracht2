@@ -3,23 +3,25 @@
 			 xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
 			 x:Class="SqliteOpdrachten.Views.ContactsPage">
 
-	<ContentPage.ToolbarItems>
-		<ToolbarItem Text="Add" Clicked="OnAddContact" />
-	</ContentPage.ToolbarItems>
-	<ListView x:Name="contacts" ItemSelected="OnContactSelected">
-		<ListView.ItemTemplate>
-			<DataTemplate>
-				<TextCell Text="{Binding FullName}" Detail="{Binding Contact.Id}">
-					<TextCell.ContextActions>
-						<MenuItem 
+
+	<StackLayout>
+		
+		<Button Text="Add" Clicked="OnAddContact" />
+		<ListView x:Name="contacts" ItemSelected="OnContactSelected">
+			<ListView.ItemTemplate>
+				<DataTemplate>
+					<TextCell Text="{Binding FullName}" >
+						<TextCell.ContextActions>
+							<MenuItem 
 							Text="Delete" 
 							IsDestructive="true" 
 							Clicked="OnDeleteContact"
 							CommandParameter="{Binding .}" />
-					</TextCell.ContextActions>
-				</TextCell>
-			</DataTemplate>
-		</ListView.ItemTemplate>
-	</ListView>
-
+						</TextCell.ContextActions>
+					</TextCell>
+				</DataTemplate>
+			</ListView.ItemTemplate>
+		</ListView>
+		
+	</StackLayout>
 </ContentPage>

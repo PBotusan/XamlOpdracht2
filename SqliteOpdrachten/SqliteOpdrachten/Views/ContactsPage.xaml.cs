@@ -20,6 +20,7 @@ namespace SqliteOpdrachten.Views
 
     public partial class ContactsPage : ContentPage
     {
+
         private ObservableCollection<Contact> _contacts;
         private SQLiteAsyncConnection _connection;
 
@@ -37,22 +38,24 @@ namespace SqliteOpdrachten.Views
                 new Contact { Id = 2, FirstName = "peyolo", LastName = "pop", Email = "pejollo@pop.com", Phone = "123654789/" },
                 new Contact { Id = 2, FirstName = "Pepsi", LastName = "CO", Email = "Pepsi@co.com", Phone = "061412056" }      
             };
-            contacts.ItemsSource = _contacts;     
+            contacts.ItemsSource = _contacts;  
+            
+
         }
 
         protected override async void OnAppearing()
         {
+            
+
             await _connection.CreateTableAsync<Contact>();
 
             var contacts = await _connection.Table<Contact>().ToListAsync();
             _contacts = new ObservableCollection<Contact>(contacts);
 
-          //  contacts.ItemsSource = _contacts;
+            contacts.ItemsSource = _contacts;
 
             base.OnAppearing();
         }
-
-
 
 
         async void OnAddContact(object sender, System.EventArgs e)
@@ -64,7 +67,7 @@ namespace SqliteOpdrachten.Views
                 _contacts.Add(contact);
             };
 
-            await Navigation.PushAsync(page);
+            await Navigation.PushModalAsync(page);
         }
 
         async void OnContactSelected(object sender, Xamarin.Forms.SelectedItemChangedEventArgs e)
@@ -86,7 +89,6 @@ namespace SqliteOpdrachten.Views
                 selectedContact.Email = contact.Email;
                 selectedContact.IsBlocked = contact.IsBlocked;
             };
-
             await Navigation.PushModalAsync(page);
         }
 
