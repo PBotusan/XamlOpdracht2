@@ -11344,11 +11344,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Roy\\source\\repos\\SqliteOpdrachten\\SqliteOpdrachten\\SqliteOpdrachten.UWP\\SqliteOpdrachten.UWP.csproj",
+      "projectUniqueName": "F:\\Documenten\\Paul Verslag\\XamlOpdracht2\\SqliteOpdrachten\\SqliteOpdrachten.UWP\\SqliteOpdrachten.UWP.csproj",
       "projectName": "SqliteOpdrachten.UWP",
-      "projectPath": "C:\\Users\\Roy\\source\\repos\\SqliteOpdrachten\\SqliteOpdrachten\\SqliteOpdrachten.UWP\\SqliteOpdrachten.UWP.csproj",
+      "projectPath": "F:\\Documenten\\Paul Verslag\\XamlOpdracht2\\SqliteOpdrachten\\SqliteOpdrachten.UWP\\SqliteOpdrachten.UWP.csproj",
       "packagesPath": "C:\\Users\\Roy\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Roy\\source\\repos\\SqliteOpdrachten\\SqliteOpdrachten\\SqliteOpdrachten.UWP\\obj\\",
+      "outputPath": "F:\\Documenten\\Paul Verslag\\XamlOpdracht2\\SqliteOpdrachten\\SqliteOpdrachten.UWP\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -11368,8 +11368,8 @@
       "frameworks": {
         "uap10.0.16299": {
           "projectReferences": {
-            "C:\\Users\\Roy\\source\\repos\\SqliteOpdrachten\\SqliteOpdrachten\\SqliteOpdrachten\\SqliteOpdrachten.csproj": {
-              "projectPath": "C:\\Users\\Roy\\source\\repos\\SqliteOpdrachten\\SqliteOpdrachten\\SqliteOpdrachten\\SqliteOpdrachten.csproj"
+            "F:\\Documenten\\Paul Verslag\\XamlOpdracht2\\SqliteOpdrachten\\SqliteOpdrachten\\SqliteOpdrachten.csproj": {
+              "projectPath": "F:\\Documenten\\Paul Verslag\\XamlOpdracht2\\SqliteOpdrachten\\SqliteOpdrachten\\SqliteOpdrachten.csproj"
             }
           }
         }

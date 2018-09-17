@@ -7480,11 +7480,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Roy\\source\\repos\\SqliteOpdrachten\\SqliteOpdrachten\\SqliteOpdrachten.iOS\\SqliteOpdrachten.iOS.csproj",
+      "projectUniqueName": "F:\\Documenten\\Paul Verslag\\XamlOpdracht2\\SqliteOpdrachten\\SqliteOpdrachten.iOS\\SqliteOpdrachten.iOS.csproj",
       "projectName": "SqliteOpdrachten.iOS",
-      "projectPath": "C:\\Users\\Roy\\source\\repos\\SqliteOpdrachten\\SqliteOpdrachten\\SqliteOpdrachten.iOS\\SqliteOpdrachten.iOS.csproj",
+      "projectPath": "F:\\Documenten\\Paul Verslag\\XamlOpdracht2\\SqliteOpdrachten\\SqliteOpdrachten.iOS\\SqliteOpdrachten.iOS.csproj",
       "packagesPath": "C:\\Users\\Roy\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Roy\\source\\repos\\SqliteOpdrachten\\SqliteOpdrachten\\SqliteOpdrachten.iOS\\obj\\",
+      "outputPath": "F:\\Documenten\\Paul Verslag\\XamlOpdracht2\\SqliteOpdrachten\\SqliteOpdrachten.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
@@ -7501,8 +7501,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "C:\\Users\\Roy\\source\\repos\\SqliteOpdrachten\\SqliteOpdrachten\\SqliteOpdrachten\\SqliteOpdrachten.csproj": {
-              "projectPath": "C:\\Users\\Roy\\source\\repos\\SqliteOpdrachten\\SqliteOpdrachten\\SqliteOpdrachten\\SqliteOpdrachten.csproj"
+            "F:\\Documenten\\Paul Verslag\\XamlOpdracht2\\SqliteOpdrachten\\SqliteOpdrachten\\SqliteOpdrachten.csproj": {
+              "projectPath": "F:\\Documenten\\Paul Verslag\\XamlOpdracht2\\SqliteOpdrachten\\SqliteOpdrachten\\SqliteOpdrachten.csproj"
             }
           }
         }

@@ -13,3 +13,18 @@ C:\Users\Roy\source\repos\SqliteOpdrachten\SqliteOpdrachten\SqliteOpdrachten\obj
 C:\Users\Roy\source\repos\SqliteOpdrachten\SqliteOpdrachten\SqliteOpdrachten\obj\Debug\netstandard2.0\XamlC.stamp
 C:\Users\Roy\source\repos\SqliteOpdrachten\SqliteOpdrachten\SqliteOpdrachten\obj\Debug\netstandard2.0\Views\ContactDetails.xaml.g.cs
 C:\Users\Roy\source\repos\SqliteOpdrachten\SqliteOpdrachten\SqliteOpdrachten\obj\Debug\netstandard2.0\Views\ContactsPage.xaml.g.cs
+F:\Documenten\Paul Verslag\XamlOpdracht2\SqliteOpdrachten\SqliteOpdrachten\bin\Debug\netstandard2.0\SqliteOpdrachten.deps.json
+F:\Documenten\Paul Verslag\XamlOpdracht2\SqliteOpdrachten\SqliteOpdrachten\bin\Debug\netstandard2.0\SqliteOpdrachten.dll
+F:\Documenten\Paul Verslag\XamlOpdracht2\SqliteOpdrachten\SqliteOpdrachten\bin\Debug\netstandard2.0\SqliteOpdrachten.pdb
+F:\Documenten\Paul Verslag\XamlOpdracht2\SqliteOpdrachten\SqliteOpdrachten\obj\Debug\netstandard2.0\SqliteOpdrachten.csprojAssemblyReference.cache
+F:\Documenten\Paul Verslag\XamlOpdracht2\SqliteOpdrachten\SqliteOpdrachten\obj\Debug\netstandard2.0\App.xaml.g.cs
+F:\Documenten\Paul Verslag\XamlOpdracht2\SqliteOpdrachten\SqliteOpdrachten\obj\Debug\netstandard2.0\JSONUpdate\JsonUpdatePage.xaml.g.cs
+F:\Documenten\Paul Verslag\XamlOpdracht2\SqliteOpdrachten\SqliteOpdrachten\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+F:\Documenten\Paul Verslag\XamlOpdracht2\SqliteOpdrachten\SqliteOpdrachten\obj\Debug\netstandard2.0\Views\ContactDetails.xaml.g.cs
+F:\Documenten\Paul Verslag\XamlOpdracht2\SqliteOpdrachten\SqliteOpdrachten\obj\Debug\netstandard2.0\Views\ContactsPage.xaml.g.cs
+F:\Documenten\Paul Verslag\XamlOpdracht2\SqliteOpdrachten\SqliteOpdrachten\obj\Debug\netstandard2.0\SqliteOpdrachten.csproj.CoreCompileInputs.cache
+F:\Documenten\Paul Verslag\XamlOpdracht2\SqliteOpdrachten\SqliteOpdrachten\obj\Debug\netstandard2.0\SqliteOpdrachten.AssemblyInfoInputs.cache
+F:\Documenten\Paul Verslag\XamlOpdracht2\SqliteOpdrachten\SqliteOpdrachten\obj\Debug\netstandard2.0\SqliteOpdrachten.AssemblyInfo.cs
+F:\Documenten\Paul Verslag\XamlOpdracht2\SqliteOpdrachten\SqliteOpdrachten\obj\Debug\netstandard2.0\XamlC.stamp
+F:\Documenten\Paul Verslag\XamlOpdracht2\SqliteOpdrachten\SqliteOpdrachten\obj\Debug\netstandard2.0\SqliteOpdrachten.dll
+F:\Documenten\Paul Verslag\XamlOpdracht2\SqliteOpdrachten\SqliteOpdrachten\obj\Debug\netstandard2.0\SqliteOpdrachten.pdb

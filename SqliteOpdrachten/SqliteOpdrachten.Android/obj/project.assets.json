@@ -5051,11 +5051,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Roy\\source\\repos\\SqliteOpdrachten\\SqliteOpdrachten\\SqliteOpdrachten.Android\\SqliteOpdrachten.Android.csproj",
+      "projectUniqueName": "F:\\Documenten\\Paul Verslag\\XamlOpdracht2\\SqliteOpdrachten\\SqliteOpdrachten.Android\\SqliteOpdrachten.Android.csproj",
       "projectName": "SqliteOpdrachten.Android",
-      "projectPath": "C:\\Users\\Roy\\source\\repos\\SqliteOpdrachten\\SqliteOpdrachten\\SqliteOpdrachten.Android\\SqliteOpdrachten.Android.csproj",
+      "projectPath": "F:\\Documenten\\Paul Verslag\\XamlOpdracht2\\SqliteOpdrachten\\SqliteOpdrachten.Android\\SqliteOpdrachten.Android.csproj",
       "packagesPath": "C:\\Users\\Roy\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Roy\\source\\repos\\SqliteOpdrachten\\SqliteOpdrachten\\SqliteOpdrachten.Android\\obj\\",
+      "outputPath": "F:\\Documenten\\Paul Verslag\\XamlOpdracht2\\SqliteOpdrachten\\SqliteOpdrachten.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
@@ -5072,8 +5072,8 @@
       "frameworks": {
         "monoandroid81": {
           "projectReferences": {
-            "C:\\Users\\Roy\\source\\repos\\SqliteOpdrachten\\SqliteOpdrachten\\SqliteOpdrachten\\SqliteOpdrachten.csproj": {
-              "projectPath": "C:\\Users\\Roy\\source\\repos\\SqliteOpdrachten\\SqliteOpdrachten\\SqliteOpdrachten\\SqliteOpdrachten.csproj"
+            "F:\\Documenten\\Paul Verslag\\XamlOpdracht2\\SqliteOpdrachten\\SqliteOpdrachten\\SqliteOpdrachten.csproj": {
+              "projectPath": "F:\\Documenten\\Paul Verslag\\XamlOpdracht2\\SqliteOpdrachten\\SqliteOpdrachten\\SqliteOpdrachten.csproj"
             }
           }
         }

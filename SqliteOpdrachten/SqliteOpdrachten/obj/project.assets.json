@@ -3163,11 +3163,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Roy\\source\\repos\\SqliteOpdrachten\\SqliteOpdrachten\\SqliteOpdrachten\\SqliteOpdrachten.csproj",
+      "projectUniqueName": "F:\\Documenten\\Paul Verslag\\XamlOpdracht2\\SqliteOpdrachten\\SqliteOpdrachten\\SqliteOpdrachten.csproj",
       "projectName": "SqliteOpdrachten",
-      "projectPath": "C:\\Users\\Roy\\source\\repos\\SqliteOpdrachten\\SqliteOpdrachten\\SqliteOpdrachten\\SqliteOpdrachten.csproj",
+      "projectPath": "F:\\Documenten\\Paul Verslag\\XamlOpdracht2\\SqliteOpdrachten\\SqliteOpdrachten\\SqliteOpdrachten.csproj",
       "packagesPath": "C:\\Users\\Roy\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Roy\\source\\repos\\SqliteOpdrachten\\SqliteOpdrachten\\SqliteOpdrachten\\obj\\",
+      "outputPath": "F:\\Documenten\\Paul Verslag\\XamlOpdracht2\\SqliteOpdrachten\\SqliteOpdrachten\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
