@@ -1,0 +1,15 @@
+C:\Users\Roy\source\repos\SqliteOpdrachten\SqliteOpdrachten\SqliteOpdrachten\bin\Debug\netstandard2.0\SqliteOpdrachten.deps.json
+C:\Users\Roy\source\repos\SqliteOpdrachten\SqliteOpdrachten\SqliteOpdrachten\bin\Debug\netstandard2.0\SqliteOpdrachten.dll
+C:\Users\Roy\source\repos\SqliteOpdrachten\SqliteOpdrachten\SqliteOpdrachten\obj\Debug\netstandard2.0\SqliteOpdrachten.csprojAssemblyReference.cache
+C:\Users\Roy\source\repos\SqliteOpdrachten\SqliteOpdrachten\SqliteOpdrachten\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Roy\source\repos\SqliteOpdrachten\SqliteOpdrachten\SqliteOpdrachten\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Roy\source\repos\SqliteOpdrachten\SqliteOpdrachten\SqliteOpdrachten\obj\Debug\netstandard2.0\SqliteOpdrachten.csproj.CoreCompileInputs.cache
+C:\Users\Roy\source\repos\SqliteOpdrachten\SqliteOpdrachten\SqliteOpdrachten\obj\Debug\netstandard2.0\SqliteOpdrachten.AssemblyInfoInputs.cache
+C:\Users\Roy\source\repos\SqliteOpdrachten\SqliteOpdrachten\SqliteOpdrachten\obj\Debug\netstandard2.0\SqliteOpdrachten.AssemblyInfo.cs
+C:\Users\Roy\source\repos\SqliteOpdrachten\SqliteOpdrachten\SqliteOpdrachten\bin\Debug\netstandard2.0\SqliteOpdrachten.pdb
+C:\Users\Roy\source\repos\SqliteOpdrachten\SqliteOpdrachten\SqliteOpdrachten\obj\Debug\netstandard2.0\SqliteOpdrachten.dll
+C:\Users\Roy\source\repos\SqliteOpdrachten\SqliteOpdrachten\SqliteOpdrachten\obj\Debug\netstandard2.0\SqliteOpdrachten.pdb
+C:\Users\Roy\source\repos\SqliteOpdrachten\SqliteOpdrachten\SqliteOpdrachten\obj\Debug\netstandard2.0\JSONUpdate\JsonUpdatePage.xaml.g.cs
+C:\Users\Roy\source\repos\SqliteOpdrachten\SqliteOpdrachten\SqliteOpdrachten\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Roy\source\repos\SqliteOpdrachten\SqliteOpdrachten\SqliteOpdrachten\obj\Debug\netstandard2.0\Views\ContactDetails.xaml.g.cs
+C:\Users\Roy\source\repos\SqliteOpdrachten\SqliteOpdrachten\SqliteOpdrachten\obj\Debug\netstandard2.0\Views\ContactsPage.xaml.g.cs
