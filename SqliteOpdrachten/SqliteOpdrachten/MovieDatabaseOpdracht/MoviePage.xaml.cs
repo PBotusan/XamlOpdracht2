@@ -10,38 +10,50 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 using Newtonsoft.Json;
+using SqliteOpdrachten.Services;
 
 namespace SqliteOpdrachten.MovieDatabaseOpdracht
 {
 	[XamlCompilation(XamlCompilationOptions.Compile)]
 	public partial class MoviePage : ContentPage
 	{
-        private const string Url = "https://api.themoviedb.org/3/movie/550?api_key=1e525fa1f6a49e6e31a540809b99a24e";
-        private HttpClient _client = new HttpClient();
-        private ObservableCollection<Movies> _movies;
+        private MovieService _service = new MovieService();
+        private BindableProperty isSearchingProperty = BindableProperty.Create("IsSearching", typeof(bool), typeof(MoviePage), false);
 
+        public bool IsSearching
+        {
+            get { return (bool)GetValue(isSearchingProperty); }
+            set { SetValue(isSearchingProperty, value); }
+        }
 
         public MoviePage ()
 		{
+            BindingContext = this;
 			InitializeComponent ();
 		}
 
 
-        protected override async void OnAppearing()
-        {
-            var content = await _client.GetStringAsync(Url);
-            var movies = JsonConvert.DeserializeObject<Movies>(content);
-
-            _movies = new ObservableCollection<Movies>();
-            listView.ItemsSource = _movies;
-
-            base.OnAppearing();
-
-        }
-
         private void SearchList_TextChanged(object sender, TextChangedEventArgs e)
-        {
-            
+		{
+            if (e.NewTextValue == null)
+                return;
+
+            //if (SearchBar.(searchList))
+            //   return _movies;
+            // || e.NewTextValue.Length < MovieService.MinSearchLength
+            //return _movies.Where(c => c.Adult.StartWith(searchList));
+           // await FindMovieTitles(title: e.NewTextValue);
         }
-    }
+
+		async private void ListView_ItemSelected(object sender, SelectedItemChangedEventArgs e)
+		{
+            if (e.SelectedItem == null)
+                return;
+
+            var movie = e.SelectedItem as Movies; // moet nog naar gekeken worden
+            listView.SelectedItem = null;
+
+            await Navigation.PushModalAsync(new MovieDetailsPage());
+        }
+	}
 }

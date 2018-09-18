@@ -45,3 +45,4 @@ C:\Users\User\Documents\GitHub\XamlOpdracht2\SqliteOpdrachten\SqliteOpdrachten\b
 C:\Users\User\Documents\GitHub\XamlOpdracht2\SqliteOpdrachten\SqliteOpdrachten\obj\Debug\netstandard2.0\XamlC.stamp
 F:\Documenten\Paul Verslag\XamlOpdracht2\SqliteOpdrachten\SqliteOpdrachten\obj\Debug\netstandard2.0\MovieDatabaseOpdracht\MoviePage.xaml.g.cs
 F:\Documenten\Paul Verslag\XamlOpdracht2\SqliteOpdrachten\SqliteOpdrachten\obj\Debug\netstandard2.0\MovieDatabaseOpdracht\MovieDetailsPage.xaml.g.cs
+F:\Documenten\Paul Verslag\XamlOpdracht2\SqliteOpdrachten\SqliteOpdrachten\obj\Debug\netstandard2.0\Services\MovieService.xaml.g.cs

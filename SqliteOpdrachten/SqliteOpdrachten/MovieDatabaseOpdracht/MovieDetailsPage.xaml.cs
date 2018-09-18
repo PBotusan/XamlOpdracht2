@@ -1,4 +1,6 @@
-﻿using System;
+﻿using SqliteOpdrachten.MovieModels;
+using SqliteOpdrachten.Services;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -12,7 +14,10 @@ namespace SqliteOpdrachten.MovieDatabaseOpdracht
 	[XamlCompilation(XamlCompilationOptions.Compile)]
 	public partial class MovieDetailsPage : ContentPage
 	{
-		public MovieDetailsPage ()
+        private MovieService _movieService = new MovieService();
+        private Movies _movie;
+
+        public MovieDetailsPage ()
 		{
 			InitializeComponent ();
 		}
