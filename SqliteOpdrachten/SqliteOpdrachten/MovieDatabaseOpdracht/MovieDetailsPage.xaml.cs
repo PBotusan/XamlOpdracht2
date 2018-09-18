@@ -26,7 +26,7 @@ namespace SqliteOpdrachten.MovieDatabaseOpdracht
 
         protected override async void OnAppearing()
         {
-        //   BindingContext = await _movieService.GetMovie(_movie.Title);
+           BindingContext = await _movieService.GetMovie(_movie.Title);
 
             base.OnAppearing();
         }

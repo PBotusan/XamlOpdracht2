@@ -65,7 +65,7 @@ namespace SqliteOpdrachten.MovieDatabaseOpdracht
 
             finally
             {
-
+                
             }
         }
 
