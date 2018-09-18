@@ -19,7 +19,7 @@ namespace SqliteOpdrachten.MovieDatabaseOpdracht
 
         private void SearchList_TextChanged(object sender, TextChangedEventArgs e)
         {
-
+            
         }
     }
 }
