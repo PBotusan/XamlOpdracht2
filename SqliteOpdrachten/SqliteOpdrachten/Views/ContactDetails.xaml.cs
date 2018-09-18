@@ -2,10 +2,7 @@
 using SqliteOpdrachten.Models;
 using SqliteOpdrachten.Persistence;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+
 
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
@@ -61,8 +58,9 @@ namespace SqliteOpdrachten.Views
                 await _connection.UpdateAsync(contact);
                 ContactUpdated?.Invoke(this, contact);
 			}
-
-			await Navigation.PopModalAsync();
+            
+            
+            await Navigation.PopModalAsync();
 		}
 	}
 }

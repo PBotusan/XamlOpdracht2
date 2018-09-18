@@ -40,17 +40,16 @@ namespace SqliteOpdrachten.Views
             base.OnAppearing();
         }
 
-        private async Task LoadData()
+        public async Task LoadData()
         {
+          //  await _connection.DropTableAsync<Contact>();
+
             await _connection.CreateTableAsync<Contact>();
 
 
             var con = await _connection.Table<Contact>().ToListAsync();
             _contacts = new ObservableCollection<Contact>(con);
-
-
-            var conn = await _connection.Table<Contact>().ToListAsync();
-            _contacts = new ObservableCollection<Contact>(conn);
+            
 
             contacts.ItemsSource = _contacts;
         }
@@ -62,8 +61,10 @@ namespace SqliteOpdrachten.Views
             page.ContactAdded += (source, contact) =>
             {
                 _contacts.Add(contact);
+
             };
 
+           await LoadData();
             await Navigation.PushModalAsync(page);
         }
 
@@ -85,7 +86,10 @@ namespace SqliteOpdrachten.Views
                 selectedContact.Phone = contact.Phone;
                 selectedContact.Email = contact.Email;
                 selectedContact.IsBlocked = contact.IsBlocked;
+
             };
+
+            
             await Navigation.PushModalAsync(page);
         }
 

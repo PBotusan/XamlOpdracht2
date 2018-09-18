@@ -10,10 +10,10 @@ namespace SqliteOpdrachten.Models
     {
         //public event PropertyChangedEventHandler PropertyChanged;
 
-        private string _firstName;
-        private string _lastName;
-        private string _phone;
-        private string _email;
+       private string _firstName;
+       private string _lastName;
+       private string _phone;
+       private string _email;
 
 
 
