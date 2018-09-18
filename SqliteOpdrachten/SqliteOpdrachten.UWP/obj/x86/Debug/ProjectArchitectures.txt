@@ -1,1 +1,1 @@
-C:\Users\User\Documents\GitHub\XamlOpdracht2\SqliteOpdrachten\SqliteOpdrachten.UWP\SqliteOpdrachten.UWP.csproj;x86
+F:\Documenten\Paul Verslag\XamlOpdracht2\SqliteOpdrachten\SqliteOpdrachten.UWP\SqliteOpdrachten.UWP.csproj;x86

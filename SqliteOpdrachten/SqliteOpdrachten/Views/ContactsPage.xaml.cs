@@ -49,8 +49,8 @@ namespace SqliteOpdrachten.Views
             _contacts = new ObservableCollection<Contact>(con);
 
 
-            var contacts = await _connection.Table<Contact>().ToListAsync();
-            _contacts = new ObservableCollection<Contact>(contacts);
+            var conn = await _connection.Table<Contact>().ToListAsync();
+            _contacts = new ObservableCollection<Contact>(conn);
 
             contacts.ItemsSource = _contacts;
         }
