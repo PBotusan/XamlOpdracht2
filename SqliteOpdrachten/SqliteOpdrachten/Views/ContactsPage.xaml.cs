@@ -49,8 +49,8 @@ namespace SqliteOpdrachten.Views
 
             await _connection.CreateTableAsync<Contact>();
 
-            var contacts = await _connection.Table<Contact>().ToListAsync();
-            _contacts = new ObservableCollection<Contact>(contacts);
+            var con = await _connection.Table<Contact>().ToListAsync();
+            _contacts = new ObservableCollection<Contact>(con);
 
             contacts.ItemsSource = _contacts;
 
