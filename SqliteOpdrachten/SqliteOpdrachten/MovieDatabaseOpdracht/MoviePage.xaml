@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SqliteOpdrachten.MovieDatabaseOpdracht.MoviePage">
+    <ContentPage.Content >
+
+        <StackLayout Padding="20">
+            <Label Text="movies" HorizontalTextAlignment="Center" FontAttributes="Bold" FontFamily="Helvetica" FontSize="Medium"></Label>
+            <SearchBar x:Name="searchList" />
+
+            <ListView x:Name="listView">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ImageCell ImageSource="" Text="" Detail="" > 
+                            
+                        </ImageCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+
+            </ListView>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

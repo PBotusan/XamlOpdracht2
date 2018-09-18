@@ -1,4 +1,5 @@
 ﻿using SqliteOpdrachten.JSONUpdate;
+using SqliteOpdrachten.MovieDatabaseOpdracht;
 using SqliteOpdrachten.Views;
 using System;
 using Xamarin.Forms;
@@ -13,7 +14,7 @@ namespace SqliteOpdrachten
         {
             InitializeComponent();
 
-            MainPage = new ContactsPage();
+            MainPage = new MoviePage();
         }
 
         protected override void OnStart()
