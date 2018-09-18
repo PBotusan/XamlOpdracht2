@@ -15,14 +15,11 @@ namespace SqliteOpdrachten.MovieDatabaseOpdracht
 	public partial class MovieDetailsPage : ContentPage
 	{
         private MovieService _movieService = new MovieService();
-       // private Movie _movie;
+        private Movies _movie;
 
-        public MovieDetailsPage (Movie movie)
+        public MovieDetailsPage(Movies movie)
 		{
-            if (movie == null)
-                throw new ArgumentNullException(nameof(movie));
-
-            _movie = movie;
+            _movie = movie ?? throw new ArgumentNullException(nameof(movie));
 
             InitializeComponent ();
 		}

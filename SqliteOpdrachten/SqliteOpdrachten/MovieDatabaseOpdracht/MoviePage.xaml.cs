@@ -33,16 +33,40 @@ namespace SqliteOpdrachten.MovieDatabaseOpdracht
 		}
 
 
-        private void SearchList_TextChanged(object sender, TextChangedEventArgs e)
+        async private void SearchList_TextChanged(object sender, TextChangedEventArgs e)
 		{
-            if (e.NewTextValue == null)
+            if (e.NewTextValue == null || e.NewTextValue.Length < MovieService.MinSearchLength)
                 return;
 
             //if (SearchBar.(searchList))
             //   return _movies;
-            // || e.NewTextValue.Length < MovieService.MinSearchLength
+            // 
             //return _movies.Where(c => c.Adult.StartWith(searchList));
-           // await FindMovieTitles(title: e.NewTextValue);
+            await FindMovieTitles(title: e.NewTextValue);
+        }
+
+        async Task FindMovieTitles(string title)
+        {
+            try
+            {
+                IsSearching = true;
+
+                var movies = await _service.FindMoviesByTitle(title);
+                listView.ItemsSource = movies;
+                listView.IsVisible = movies.Any();
+                IsVisible = !listView.IsVisible;
+
+            }
+
+            catch(Exception)
+            {
+                await DisplayAlert("Error", "Something went wrong, You are in danger!!!", "Close");
+            }
+
+            finally
+            {
+
+            }
         }
 
 		async private void ListView_ItemSelected(object sender, SelectedItemChangedEventArgs e)
@@ -53,7 +77,7 @@ namespace SqliteOpdrachten.MovieDatabaseOpdracht
             var movie = e.SelectedItem as Movies; // moet nog naar gekeken worden
             listView.SelectedItem = null;
 
-            await Navigation.PushModalAsync(new MovieDetailsPage());
+            await Navigation.PushModalAsync(new MovieDetailsPage(movie));
         }
 	}
 }

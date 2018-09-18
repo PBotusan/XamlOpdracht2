@@ -7,7 +7,7 @@ using System.Text;
 
 namespace SqliteOpdrachten.MovieModels
 {
-    class Movies
+  public  class Movies
     {
         [JsonProperty("adult")]
         public bool Adult { get; set; }
