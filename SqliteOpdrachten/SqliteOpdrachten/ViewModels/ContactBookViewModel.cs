@@ -42,7 +42,7 @@ namespace MVVM.ViewModels
             DeleteContactCommand = new Command<ContactViewModel>(async c => await DeleteContact(c));
          }
 
-        private async Task LoadData()
+       private async Task LoadData()
         {
             if (_isDataLoaded)
                 return;

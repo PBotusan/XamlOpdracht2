@@ -33,8 +33,6 @@ namespace MVVM.ViewModels
         public async Task DisplayAlert(string title, string message, string ok)
         {
             await MainPage.DisplayAlert(title, message, ok);
-
-
         }
 
         private Page MainPage

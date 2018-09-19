@@ -31,13 +31,13 @@
     <AppXManifest Include="F:\Documenten\Paul Verslag\MVVM Contactbook\SqliteOpdrachten\SqliteOpdrachten.UWP\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-09-19T14:11:16.192</Modified>
+      <Modified>2018-09-19T14:40:58.513</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="F:\Documenten\Paul Verslag\MVVM Contactbook\SqliteOpdrachten\SqliteOpdrachten.UWP\bin\x86\Debug\SqliteOpdrachten.UWP.exe">
       <PackagePath>entrypoint\SqliteOpdrachten.UWP.exe</PackagePath>
-      <Modified>2018-09-19T14:11:14.785</Modified>
+      <Modified>2018-09-19T14:40:57.066</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Roy\.nuget\packages\microsoft.data.sqlite.core\2.1.0\lib\netstandard2.0\Microsoft.Data.Sqlite.dll">
       <PackagePath>Microsoft.Data.Sqlite.dll</PackagePath>
@@ -829,7 +829,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Documenten\Paul Verslag\MVVM Contactbook\SqliteOpdrachten\SqliteOpdrachten\bin\Debug\netstandard2.0\MVVM.dll">
       <PackagePath>MVVM.dll</PackagePath>
-      <Modified>2018-09-19T14:11:08.740</Modified>
+      <Modified>2018-09-19T14:40:50.424</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Documenten\Paul Verslag\MVVM Contactbook\SqliteOpdrachten\SqliteOpdrachten.UWP\Assets\LargeTile.scale-100.png">
       <PackagePath>Assets\LargeTile.scale-100.png</PackagePath>
@@ -976,11 +976,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Documenten\Paul Verslag\MVVM Contactbook\SqliteOpdrachten\SqliteOpdrachten.UWP\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2018-09-19T14:11:14.520</Modified>
+      <Modified>2018-09-19T14:40:56.806</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Documenten\Paul Verslag\MVVM Contactbook\SqliteOpdrachten\SqliteOpdrachten.UWP\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2018-09-19T14:11:14.520</Modified>
+      <Modified>2018-09-19T14:40:56.806</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.16299.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -1041,7 +1041,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Documenten\Paul Verslag\MVVM Contactbook\SqliteOpdrachten\SqliteOpdrachten.UWP\bin\x86\Debug\Core\SqliteOpdrachten.UWP.exe">
       <PackagePath>SqliteOpdrachten.UWP.exe</PackagePath>
-      <Modified>2018-09-19T14:11:15.536</Modified>
+      <Modified>2018-09-19T14:40:57.892</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
