@@ -46,3 +46,4 @@ C:\Users\User\Documents\GitHub\XamlOpdracht2\SqliteOpdrachten\SqliteOpdrachten\o
 F:\Documenten\Paul Verslag\XamlOpdracht2\SqliteOpdrachten\SqliteOpdrachten\obj\Debug\netstandard2.0\MovieDatabaseOpdracht\MoviePage.xaml.g.cs
 F:\Documenten\Paul Verslag\XamlOpdracht2\SqliteOpdrachten\SqliteOpdrachten\obj\Debug\netstandard2.0\MovieDatabaseOpdracht\MovieDetailsPage.xaml.g.cs
 F:\Documenten\Paul Verslag\XamlOpdracht2\SqliteOpdrachten\SqliteOpdrachten\obj\Debug\netstandard2.0\Services\MovieService.xaml.g.cs
+F:\Documenten\Paul Verslag\XamlOpdracht2\SqliteOpdrachten\SqliteOpdrachten\obj\Debug\netstandard2.0\StyleOpdrachten.xaml.g.cs

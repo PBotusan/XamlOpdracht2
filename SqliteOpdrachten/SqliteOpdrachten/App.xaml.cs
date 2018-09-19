@@ -14,7 +14,7 @@ namespace SqliteOpdrachten
         {
             InitializeComponent();
 
-            MainPage = new MoviePage();
+            MainPage = new StyleOpdrachten();
         }
 
         protected override void OnStart()
