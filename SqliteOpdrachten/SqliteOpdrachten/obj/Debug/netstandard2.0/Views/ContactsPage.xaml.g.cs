@@ -8,21 +8,17 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("SqliteOpdrachten.Views.ContactsPage.xaml", "Views/ContactsPage.xaml", typeof(global::SqliteOpdrachten.Views.ContactsPage))]
+[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("MVVM.Views.ContactsPage.xaml", "Views/ContactsPage.xaml", typeof(global::MVVM.Views.ContactsPage))]
 
-namespace SqliteOpdrachten.Views {
+namespace MVVM.Views {
     
     
     [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Views\\ContactsPage.xaml")]
     public partial class ContactsPage : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
-        private global::Xamarin.Forms.ListView contacts;
-        
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private void InitializeComponent() {
             global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(ContactsPage));
-            contacts = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.ListView>(this, "contacts");
         }
     }
 }

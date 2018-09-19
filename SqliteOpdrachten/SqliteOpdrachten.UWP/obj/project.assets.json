@@ -714,7 +714,7 @@
           "build/netstandard2.0/Xamarin.Forms.targets": {}
         }
       },
-      "SqliteOpdrachten/1.0.0": {
+      "MVVM/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
@@ -727,10 +727,10 @@
           "sqlite-net-pcl": "1.5.231"
         },
         "compile": {
-          "bin/placeholder/SqliteOpdrachten.dll": {}
+          "bin/placeholder/MVVM.dll": {}
         },
         "runtime": {
-          "bin/placeholder/SqliteOpdrachten.dll": {}
+          "bin/placeholder/MVVM.dll": {}
         }
       }
     },
@@ -1611,7 +1611,7 @@
           "build/netstandard2.0/Xamarin.Forms.targets": {}
         }
       },
-      "SqliteOpdrachten/1.0.0": {
+      "MVVM/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
@@ -1624,10 +1624,10 @@
           "sqlite-net-pcl": "1.5.231"
         },
         "compile": {
-          "bin/placeholder/SqliteOpdrachten.dll": {}
+          "bin/placeholder/MVVM.dll": {}
         },
         "runtime": {
-          "bin/placeholder/SqliteOpdrachten.dll": {}
+          "bin/placeholder/MVVM.dll": {}
         }
       }
     },
@@ -2509,7 +2509,7 @@
           "build/netstandard2.0/Xamarin.Forms.targets": {}
         }
       },
-      "SqliteOpdrachten/1.0.0": {
+      "MVVM/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
@@ -2522,10 +2522,10 @@
           "sqlite-net-pcl": "1.5.231"
         },
         "compile": {
-          "bin/placeholder/SqliteOpdrachten.dll": {}
+          "bin/placeholder/MVVM.dll": {}
         },
         "runtime": {
-          "bin/placeholder/SqliteOpdrachten.dll": {}
+          "bin/placeholder/MVVM.dll": {}
         }
       }
     },
@@ -3228,7 +3228,7 @@
           "build/netstandard2.0/Xamarin.Forms.targets": {}
         }
       },
-      "SqliteOpdrachten/1.0.0": {
+      "MVVM/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
@@ -3241,10 +3241,10 @@
           "sqlite-net-pcl": "1.5.231"
         },
         "compile": {
-          "bin/placeholder/SqliteOpdrachten.dll": {}
+          "bin/placeholder/MVVM.dll": {}
         },
         "runtime": {
-          "bin/placeholder/SqliteOpdrachten.dll": {}
+          "bin/placeholder/MVVM.dll": {}
         }
       }
     },
@@ -4125,7 +4125,7 @@
           "build/netstandard2.0/Xamarin.Forms.targets": {}
         }
       },
-      "SqliteOpdrachten/1.0.0": {
+      "MVVM/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
@@ -4138,10 +4138,10 @@
           "sqlite-net-pcl": "1.5.231"
         },
         "compile": {
-          "bin/placeholder/SqliteOpdrachten.dll": {}
+          "bin/placeholder/MVVM.dll": {}
         },
         "runtime": {
-          "bin/placeholder/SqliteOpdrachten.dll": {}
+          "bin/placeholder/MVVM.dll": {}
         }
       }
     },
@@ -5023,7 +5023,7 @@
           "build/netstandard2.0/Xamarin.Forms.targets": {}
         }
       },
-      "SqliteOpdrachten/1.0.0": {
+      "MVVM/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
@@ -5036,10 +5036,10 @@
           "sqlite-net-pcl": "1.5.231"
         },
         "compile": {
-          "bin/placeholder/SqliteOpdrachten.dll": {}
+          "bin/placeholder/MVVM.dll": {}
         },
         "runtime": {
-          "bin/placeholder/SqliteOpdrachten.dll": {}
+          "bin/placeholder/MVVM.dll": {}
         }
       }
     },
@@ -5920,7 +5920,7 @@
           "build/netstandard2.0/Xamarin.Forms.targets": {}
         }
       },
-      "SqliteOpdrachten/1.0.0": {
+      "MVVM/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
@@ -5933,10 +5933,10 @@
           "sqlite-net-pcl": "1.5.231"
         },
         "compile": {
-          "bin/placeholder/SqliteOpdrachten.dll": {}
+          "bin/placeholder/MVVM.dll": {}
         },
         "runtime": {
-          "bin/placeholder/SqliteOpdrachten.dll": {}
+          "bin/placeholder/MVVM.dll": {}
         }
       }
     },
@@ -6818,7 +6818,7 @@
           "build/netstandard2.0/Xamarin.Forms.targets": {}
         }
       },
-      "SqliteOpdrachten/1.0.0": {
+      "MVVM/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
@@ -6831,10 +6831,10 @@
           "sqlite-net-pcl": "1.5.231"
         },
         "compile": {
-          "bin/placeholder/SqliteOpdrachten.dll": {}
+          "bin/placeholder/MVVM.dll": {}
         },
         "runtime": {
-          "bin/placeholder/SqliteOpdrachten.dll": {}
+          "bin/placeholder/MVVM.dll": {}
         }
       }
     }
@@ -11427,20 +11427,20 @@
         "xamarin.forms.nuspec"
       ]
     },
-    "SqliteOpdrachten/1.0.0": {
+    "MVVM/1.0.0": {
       "type": "project",
-      "path": "../SqliteOpdrachten/SqliteOpdrachten.csproj",
-      "msbuildProject": "../SqliteOpdrachten/SqliteOpdrachten.csproj"
+      "path": "../SqliteOpdrachten/MVVM.csproj",
+      "msbuildProject": "../SqliteOpdrachten/MVVM.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "UAP,Version=v10.0.16299": [
+      "MVVM >= 1.0.0",
       "Microsoft.EntityFrameworkCore.Sqlite >= 2.1.3",
       "Microsoft.EntityFrameworkCore.Sqlite.Core >= 2.1.3",
       "Microsoft.NETCore.UniversalWindowsPlatform >= 6.1.5",
       "Microsoft.Net.Http >= 2.2.29",
       "Newtonsoft.Json >= 11.0.2",
-      "SqliteOpdrachten >= 1.0.0",
       "System.Buffers >= 4.5.0",
       "Xamarin.Forms >= 3.1.0.697729",
       "sqlite-net-pcl >= 1.5.231"
@@ -11453,11 +11453,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\Documenten\\Paul Verslag\\XamlOpdracht2\\SqliteOpdrachten\\SqliteOpdrachten.UWP\\SqliteOpdrachten.UWP.csproj",
-      "projectName": "SqliteOpdrachten.UWP",
-      "projectPath": "F:\\Documenten\\Paul Verslag\\XamlOpdracht2\\SqliteOpdrachten\\SqliteOpdrachten.UWP\\SqliteOpdrachten.UWP.csproj",
+      "projectUniqueName": "F:\\Documenten\\Paul Verslag\\MVVM Contactbook\\SqliteOpdrachten\\SqliteOpdrachten.UWP\\MVVM.UWP.csproj",
+      "projectName": "MVVM.UWP",
+      "projectPath": "F:\\Documenten\\Paul Verslag\\MVVM Contactbook\\SqliteOpdrachten\\SqliteOpdrachten.UWP\\MVVM.UWP.csproj",
       "packagesPath": "C:\\Users\\Roy\\.nuget\\packages\\",
-      "outputPath": "F:\\Documenten\\Paul Verslag\\XamlOpdracht2\\SqliteOpdrachten\\SqliteOpdrachten.UWP\\obj\\",
+      "outputPath": "F:\\Documenten\\Paul Verslag\\MVVM Contactbook\\SqliteOpdrachten\\SqliteOpdrachten.UWP\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -11477,8 +11477,8 @@
       "frameworks": {
         "uap10.0.16299": {
           "projectReferences": {
-            "F:\\Documenten\\Paul Verslag\\XamlOpdracht2\\SqliteOpdrachten\\SqliteOpdrachten\\SqliteOpdrachten.csproj": {
-              "projectPath": "F:\\Documenten\\Paul Verslag\\XamlOpdracht2\\SqliteOpdrachten\\SqliteOpdrachten\\SqliteOpdrachten.csproj"
+            "F:\\Documenten\\Paul Verslag\\MVVM Contactbook\\SqliteOpdrachten\\SqliteOpdrachten\\MVVM.csproj": {
+              "projectPath": "F:\\Documenten\\Paul Verslag\\MVVM Contactbook\\SqliteOpdrachten\\SqliteOpdrachten\\MVVM.csproj"
             }
           }
         }

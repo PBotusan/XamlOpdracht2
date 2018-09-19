@@ -10,7 +10,7 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>ec0cc741-fd3e-485c-81be-68815c480690</PackageIdentityName>
     <PackageIdentityPublisher>CN=c844811d-906d-4686-b41d-cb11da256053</PackageIdentityPublisher>
-    <IntermediateOutputPath>F:\Documenten\Paul Verslag\XamlOpdracht2\SqliteOpdrachten\SqliteOpdrachten.UWP\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>F:\Documenten\Paul Verslag\MVVM Contactbook\SqliteOpdrachten\SqliteOpdrachten.UWP\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType>
     </RemoteDeploymentType>
     <PackageRegistrationPath>
@@ -18,7 +18,7 @@
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>F:\Documenten\Paul Verslag\XamlOpdracht2\SqliteOpdrachten\SqliteOpdrachten.UWP\bin\x86\Debug\AppX</LayoutDir>
+    <LayoutDir>F:\Documenten\Paul Verslag\MVVM Contactbook\SqliteOpdrachten\SqliteOpdrachten.UWP\bin\x86\Debug\AppX</LayoutDir>
     <RegisteredManifestChecksum>7252A1D8BC31CC87CF542544E5E0B0B982709623C0E6C9DE223CA3BB0CDF4F7D</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>1e8f78ec-dc7f-4cfd-999d-88f9723e2409_1.0.0.0_x86__nm6yjwe2n3evg</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>1e8f78ec-dc7f-4cfd-999d-88f9723e2409_nm6yjwe2n3evg!App</RegisteredUserModeAppID>
@@ -28,16 +28,24 @@
     <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="F:\Documenten\Paul Verslag\XamlOpdracht2\SqliteOpdrachten\SqliteOpdrachten.UWP\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="F:\Documenten\Paul Verslag\MVVM Contactbook\SqliteOpdrachten\SqliteOpdrachten.UWP\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+<<<<<<< HEAD
       <Modified>2018-09-19T11:58:18.034</Modified>
+=======
+      <Modified>2018-09-19T14:11:16.192</Modified>
+>>>>>>> f4323d5b83173f8c226b231a25e6f281733d8355
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="F:\Documenten\Paul Verslag\XamlOpdracht2\SqliteOpdrachten\SqliteOpdrachten.UWP\bin\x86\Debug\SqliteOpdrachten.UWP.exe">
+    <AppxPackagedFile Include="F:\Documenten\Paul Verslag\MVVM Contactbook\SqliteOpdrachten\SqliteOpdrachten.UWP\bin\x86\Debug\SqliteOpdrachten.UWP.exe">
       <PackagePath>entrypoint\SqliteOpdrachten.UWP.exe</PackagePath>
+<<<<<<< HEAD
       <Modified>2018-09-19T11:58:16.569</Modified>
+=======
+      <Modified>2018-09-19T14:11:14.785</Modified>
+>>>>>>> f4323d5b83173f8c226b231a25e6f281733d8355
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Roy\.nuget\packages\microsoft.data.sqlite.core\2.1.0\lib\netstandard2.0\Microsoft.Data.Sqlite.dll">
       <PackagePath>Microsoft.Data.Sqlite.dll</PackagePath>
@@ -827,160 +835,174 @@
       <PackagePath>Xamarin.Forms.Xaml.dll</PackagePath>
       <Modified>2018-07-26T17:16:10.000</Modified>
     </AppxPackagedFile>
+<<<<<<< HEAD
     <AppxPackagedFile Include="F:\Documenten\Paul Verslag\XamlOpdracht2\SqliteOpdrachten\SqliteOpdrachten\bin\Debug\netstandard2.0\SqliteOpdrachten.dll">
       <PackagePath>SqliteOpdrachten.dll</PackagePath>
       <Modified>2018-09-19T11:58:08.680</Modified>
+=======
+    <AppxPackagedFile Include="F:\Documenten\Paul Verslag\MVVM Contactbook\SqliteOpdrachten\SqliteOpdrachten\bin\Debug\netstandard2.0\MVVM.dll">
+      <PackagePath>MVVM.dll</PackagePath>
+      <Modified>2018-09-19T14:11:08.740</Modified>
+>>>>>>> f4323d5b83173f8c226b231a25e6f281733d8355
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Documenten\Paul Verslag\XamlOpdracht2\SqliteOpdrachten\SqliteOpdrachten.UWP\Assets\LargeTile.scale-100.png">
+    <AppxPackagedFile Include="F:\Documenten\Paul Verslag\MVVM Contactbook\SqliteOpdrachten\SqliteOpdrachten.UWP\Assets\LargeTile.scale-100.png">
       <PackagePath>Assets\LargeTile.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-09-17T07:58:41.116</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Documenten\Paul Verslag\XamlOpdracht2\SqliteOpdrachten\SqliteOpdrachten.UWP\Assets\LargeTile.scale-200.png">
+    <AppxPackagedFile Include="F:\Documenten\Paul Verslag\MVVM Contactbook\SqliteOpdrachten\SqliteOpdrachten.UWP\Assets\LargeTile.scale-200.png">
       <PackagePath>Assets\LargeTile.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-09-17T07:58:41.118</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Documenten\Paul Verslag\XamlOpdracht2\SqliteOpdrachten\SqliteOpdrachten.UWP\Assets\LargeTile.scale-400.png">
+    <AppxPackagedFile Include="F:\Documenten\Paul Verslag\MVVM Contactbook\SqliteOpdrachten\SqliteOpdrachten.UWP\Assets\LargeTile.scale-400.png">
       <PackagePath>Assets\LargeTile.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-09-17T07:58:41.122</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Documenten\Paul Verslag\XamlOpdracht2\SqliteOpdrachten\SqliteOpdrachten.UWP\Assets\SmallTile.scale-100.png">
+    <AppxPackagedFile Include="F:\Documenten\Paul Verslag\MVVM Contactbook\SqliteOpdrachten\SqliteOpdrachten.UWP\Assets\SmallTile.scale-100.png">
       <PackagePath>Assets\SmallTile.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-09-17T07:58:41.191</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Documenten\Paul Verslag\XamlOpdracht2\SqliteOpdrachten\SqliteOpdrachten.UWP\Assets\SmallTile.scale-200.png">
+    <AppxPackagedFile Include="F:\Documenten\Paul Verslag\MVVM Contactbook\SqliteOpdrachten\SqliteOpdrachten.UWP\Assets\SmallTile.scale-200.png">
       <PackagePath>Assets\SmallTile.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-09-17T07:58:41.192</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Documenten\Paul Verslag\XamlOpdracht2\SqliteOpdrachten\SqliteOpdrachten.UWP\Assets\SmallTile.scale-400.png">
+    <AppxPackagedFile Include="F:\Documenten\Paul Verslag\MVVM Contactbook\SqliteOpdrachten\SqliteOpdrachten.UWP\Assets\SmallTile.scale-400.png">
       <PackagePath>Assets\SmallTile.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-09-17T07:58:41.194</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Documenten\Paul Verslag\XamlOpdracht2\SqliteOpdrachten\SqliteOpdrachten.UWP\Assets\SplashScreen.scale-100.png">
+    <AppxPackagedFile Include="F:\Documenten\Paul Verslag\MVVM Contactbook\SqliteOpdrachten\SqliteOpdrachten.UWP\Assets\SplashScreen.scale-100.png">
       <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-09-17T07:58:41.196</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Documenten\Paul Verslag\XamlOpdracht2\SqliteOpdrachten\SqliteOpdrachten.UWP\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="F:\Documenten\Paul Verslag\MVVM Contactbook\SqliteOpdrachten\SqliteOpdrachten.UWP\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-09-17T07:58:41.198</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Documenten\Paul Verslag\XamlOpdracht2\SqliteOpdrachten\SqliteOpdrachten.UWP\Assets\SplashScreen.scale-400.png">
+    <AppxPackagedFile Include="F:\Documenten\Paul Verslag\MVVM Contactbook\SqliteOpdrachten\SqliteOpdrachten.UWP\Assets\SplashScreen.scale-400.png">
       <PackagePath>Assets\SplashScreen.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-09-17T07:58:41.267</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Documenten\Paul Verslag\XamlOpdracht2\SqliteOpdrachten\SqliteOpdrachten.UWP\Assets\Square150x150Logo.scale-100.png">
+    <AppxPackagedFile Include="F:\Documenten\Paul Verslag\MVVM Contactbook\SqliteOpdrachten\SqliteOpdrachten.UWP\Assets\Square150x150Logo.scale-100.png">
       <PackagePath>Assets\Square150x150Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-09-17T07:58:41.269</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Documenten\Paul Verslag\XamlOpdracht2\SqliteOpdrachten\SqliteOpdrachten.UWP\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="F:\Documenten\Paul Verslag\MVVM Contactbook\SqliteOpdrachten\SqliteOpdrachten.UWP\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-09-17T07:58:41.271</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Documenten\Paul Verslag\XamlOpdracht2\SqliteOpdrachten\SqliteOpdrachten.UWP\Assets\Square150x150Logo.scale-400.png">
+    <AppxPackagedFile Include="F:\Documenten\Paul Verslag\MVVM Contactbook\SqliteOpdrachten\SqliteOpdrachten.UWP\Assets\Square150x150Logo.scale-400.png">
       <PackagePath>Assets\Square150x150Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-09-17T07:58:41.273</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Documenten\Paul Verslag\XamlOpdracht2\SqliteOpdrachten\SqliteOpdrachten.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-16.png">
+    <AppxPackagedFile Include="F:\Documenten\Paul Verslag\MVVM Contactbook\SqliteOpdrachten\SqliteOpdrachten.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-16.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-16.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-09-17T07:58:41.275</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Documenten\Paul Verslag\XamlOpdracht2\SqliteOpdrachten\SqliteOpdrachten.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-256.png">
+    <AppxPackagedFile Include="F:\Documenten\Paul Verslag\MVVM Contactbook\SqliteOpdrachten\SqliteOpdrachten.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-256.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-256.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-09-17T07:58:41.346</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Documenten\Paul Verslag\XamlOpdracht2\SqliteOpdrachten\SqliteOpdrachten.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-48.png">
+    <AppxPackagedFile Include="F:\Documenten\Paul Verslag\MVVM Contactbook\SqliteOpdrachten\SqliteOpdrachten.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-48.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-48.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-09-17T07:58:41.348</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Documenten\Paul Verslag\XamlOpdracht2\SqliteOpdrachten\SqliteOpdrachten.UWP\Assets\Square44x44Logo.scale-100.png">
+    <AppxPackagedFile Include="F:\Documenten\Paul Verslag\MVVM Contactbook\SqliteOpdrachten\SqliteOpdrachten.UWP\Assets\Square44x44Logo.scale-100.png">
       <PackagePath>Assets\Square44x44Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-09-17T07:58:41.350</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Documenten\Paul Verslag\XamlOpdracht2\SqliteOpdrachten\SqliteOpdrachten.UWP\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="F:\Documenten\Paul Verslag\MVVM Contactbook\SqliteOpdrachten\SqliteOpdrachten.UWP\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-09-17T07:58:41.351</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Documenten\Paul Verslag\XamlOpdracht2\SqliteOpdrachten\SqliteOpdrachten.UWP\Assets\Square44x44Logo.scale-400.png">
+    <AppxPackagedFile Include="F:\Documenten\Paul Verslag\MVVM Contactbook\SqliteOpdrachten\SqliteOpdrachten.UWP\Assets\Square44x44Logo.scale-400.png">
       <PackagePath>Assets\Square44x44Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-09-17T07:58:41.353</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Documenten\Paul Verslag\XamlOpdracht2\SqliteOpdrachten\SqliteOpdrachten.UWP\Assets\Square44x44Logo.targetsize-16.png">
+    <AppxPackagedFile Include="F:\Documenten\Paul Verslag\MVVM Contactbook\SqliteOpdrachten\SqliteOpdrachten.UWP\Assets\Square44x44Logo.targetsize-16.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-16.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-09-17T07:58:41.420</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Documenten\Paul Verslag\XamlOpdracht2\SqliteOpdrachten\SqliteOpdrachten.UWP\Assets\Square44x44Logo.targetsize-256.png">
+    <AppxPackagedFile Include="F:\Documenten\Paul Verslag\MVVM Contactbook\SqliteOpdrachten\SqliteOpdrachten.UWP\Assets\Square44x44Logo.targetsize-256.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-256.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-09-17T07:58:41.423</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Documenten\Paul Verslag\XamlOpdracht2\SqliteOpdrachten\SqliteOpdrachten.UWP\Assets\Square44x44Logo.targetsize-48.png">
+    <AppxPackagedFile Include="F:\Documenten\Paul Verslag\MVVM Contactbook\SqliteOpdrachten\SqliteOpdrachten.UWP\Assets\Square44x44Logo.targetsize-48.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-48.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-09-17T07:58:41.425</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Documenten\Paul Verslag\XamlOpdracht2\SqliteOpdrachten\SqliteOpdrachten.UWP\Assets\StoreLogo.scale-100.png">
+    <AppxPackagedFile Include="F:\Documenten\Paul Verslag\MVVM Contactbook\SqliteOpdrachten\SqliteOpdrachten.UWP\Assets\StoreLogo.scale-100.png">
       <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-09-17T07:58:41.428</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Documenten\Paul Verslag\XamlOpdracht2\SqliteOpdrachten\SqliteOpdrachten.UWP\Assets\StoreLogo.scale-200.png">
+    <AppxPackagedFile Include="F:\Documenten\Paul Verslag\MVVM Contactbook\SqliteOpdrachten\SqliteOpdrachten.UWP\Assets\StoreLogo.scale-200.png">
       <PackagePath>Assets\StoreLogo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-09-17T07:58:41.496</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Documenten\Paul Verslag\XamlOpdracht2\SqliteOpdrachten\SqliteOpdrachten.UWP\Assets\StoreLogo.scale-400.png">
+    <AppxPackagedFile Include="F:\Documenten\Paul Verslag\MVVM Contactbook\SqliteOpdrachten\SqliteOpdrachten.UWP\Assets\StoreLogo.scale-400.png">
       <PackagePath>Assets\StoreLogo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-09-17T07:58:41.498</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Documenten\Paul Verslag\XamlOpdracht2\SqliteOpdrachten\SqliteOpdrachten.UWP\Assets\Wide310x150Logo.scale-100.png">
+    <AppxPackagedFile Include="F:\Documenten\Paul Verslag\MVVM Contactbook\SqliteOpdrachten\SqliteOpdrachten.UWP\Assets\Wide310x150Logo.scale-100.png">
       <PackagePath>Assets\Wide310x150Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-09-17T07:58:41.499</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Documenten\Paul Verslag\XamlOpdracht2\SqliteOpdrachten\SqliteOpdrachten.UWP\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="F:\Documenten\Paul Verslag\MVVM Contactbook\SqliteOpdrachten\SqliteOpdrachten.UWP\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-09-17T07:58:41.501</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Documenten\Paul Verslag\XamlOpdracht2\SqliteOpdrachten\SqliteOpdrachten.UWP\Assets\Wide310x150Logo.scale-400.png">
+    <AppxPackagedFile Include="F:\Documenten\Paul Verslag\MVVM Contactbook\SqliteOpdrachten\SqliteOpdrachten.UWP\Assets\Wide310x150Logo.scale-400.png">
       <PackagePath>Assets\Wide310x150Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-09-17T07:58:41.504</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Documenten\Paul Verslag\XamlOpdracht2\SqliteOpdrachten\SqliteOpdrachten.UWP\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="F:\Documenten\Paul Verslag\MVVM Contactbook\SqliteOpdrachten\SqliteOpdrachten.UWP\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
       <Modified>2018-09-17T07:58:41.573</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Documenten\Paul Verslag\XamlOpdracht2\SqliteOpdrachten\SqliteOpdrachten.UWP\bin\x86\Debug\SqliteOpdrachten.UWP.xr.xml">
+    <AppxPackagedFile Include="F:\Documenten\Paul Verslag\MVVM Contactbook\SqliteOpdrachten\SqliteOpdrachten.UWP\bin\x86\Debug\SqliteOpdrachten.UWP.xr.xml">
       <PackagePath>SqliteOpdrachten.UWP.xr.xml</PackagePath>
       <Modified>2018-09-17T09:15:44.059</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Documenten\Paul Verslag\XamlOpdracht2\SqliteOpdrachten\SqliteOpdrachten.UWP\bin\x86\Debug\App.xbf">
+    <AppxPackagedFile Include="F:\Documenten\Paul Verslag\MVVM Contactbook\SqliteOpdrachten\SqliteOpdrachten.UWP\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
+<<<<<<< HEAD
       <Modified>2018-09-19T11:58:16.284</Modified>
+=======
+      <Modified>2018-09-19T14:11:14.520</Modified>
+>>>>>>> f4323d5b83173f8c226b231a25e6f281733d8355
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Documenten\Paul Verslag\XamlOpdracht2\SqliteOpdrachten\SqliteOpdrachten.UWP\bin\x86\Debug\MainPage.xbf">
+    <AppxPackagedFile Include="F:\Documenten\Paul Verslag\MVVM Contactbook\SqliteOpdrachten\SqliteOpdrachten.UWP\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
+<<<<<<< HEAD
       <Modified>2018-09-19T11:58:16.284</Modified>
+=======
+      <Modified>2018-09-19T14:11:14.520</Modified>
+>>>>>>> f4323d5b83173f8c226b231a25e6f281733d8355
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.16299.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -1034,14 +1056,18 @@
       <PackagePath>Xamarin.Forms.Platform.UAP\Xamarin.Forms.Platform.UAP.xr.xml</PackagePath>
       <Modified>2018-07-26T17:16:08.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Documenten\Paul Verslag\XamlOpdracht2\SqliteOpdrachten\SqliteOpdrachten.UWP\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="F:\Documenten\Paul Verslag\MVVM Contactbook\SqliteOpdrachten\SqliteOpdrachten.UWP\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-09-18T06:54:06.390</Modified>
+      <Modified>2018-09-19T13:10:22.772</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Documenten\Paul Verslag\XamlOpdracht2\SqliteOpdrachten\SqliteOpdrachten.UWP\bin\x86\Debug\Core\SqliteOpdrachten.UWP.exe">
+    <AppxPackagedFile Include="F:\Documenten\Paul Verslag\MVVM Contactbook\SqliteOpdrachten\SqliteOpdrachten.UWP\bin\x86\Debug\Core\SqliteOpdrachten.UWP.exe">
       <PackagePath>SqliteOpdrachten.UWP.exe</PackagePath>
+<<<<<<< HEAD
       <Modified>2018-09-19T11:58:17.381</Modified>
+=======
+      <Modified>2018-09-19T14:11:15.536</Modified>
+>>>>>>> f4323d5b83173f8c226b231a25e6f281733d8355
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
