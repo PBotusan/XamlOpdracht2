@@ -8,9 +8,9 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("SqliteOpdrachten.Views.ContactDetails.xaml", "Views/ContactDetails.xaml", typeof(global::SqliteOpdrachten.Views.ContactDetails))]
+[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("MVVM.Views.ContactDetails.xaml", "Views/ContactDetails.xaml", typeof(global::MVVM.Views.ContactDetails))]
 
-namespace SqliteOpdrachten.Views {
+namespace MVVM.Views {
     
     
     [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Views\\ContactDetails.xaml")]

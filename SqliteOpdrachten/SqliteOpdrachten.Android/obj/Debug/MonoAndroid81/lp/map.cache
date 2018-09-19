@@ -15,15 +15,16 @@ Microsoft.Extensions.Logging.Abstractions
 Microsoft.Extensions.Logging
 Microsoft.Extensions.Options
 Microsoft.Extensions.Primitives
+MVVM
 Newtonsoft.Json
 Remotion.Linq
 SQLite-net
-SqliteOpdrachten
 SQLitePCLRaw.batteries_green
 SQLitePCLRaw.batteries_v2
 SQLitePCLRaw.core
 SQLitePCLRaw.lib.e_sqlite3
 SQLitePCLRaw.provider.e_sqlite3
+System.Buffers
 System.Collections.Immutable
 System.Diagnostics.DiagnosticSource
 System.Interactive.Async
@@ -64,4 +65,3 @@ System.Reflection.Extensions
 System.Threading
 System.Threading.Tasks
 System.Resources.ResourceManager
-System.Buffers

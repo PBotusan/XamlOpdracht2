@@ -1,104 +1,39 @@
-﻿using SQLite;
-using SqliteOpdrachten.Models;
+﻿using MVVM.Persistence;
+using MVVM.ViewModels;
+
 using SqliteOpdrachten.Persistence;
-using System;
-using System.Collections.Generic;
-using System.Collections.ObjectModel;
-using System.ComponentModel;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 using Xamarin.Forms;
-using Xamarin.Forms.Xaml;
 
-namespace SqliteOpdrachten.Views
+namespace MVVM.Views
 {
-    [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class ContactsPage : ContentPage
-    {
-
-        private ObservableCollection<Contact> _contacts;
-        private SQLiteAsyncConnection _connection;
-        private bool _isDataLoaded;
-
+    public partial class ContactsPage 
+	{
         public ContactsPage()
         {
-            _connection = DependencyService.Get<ISQLiteDb>().GetConnection();
+            var contactStore = new SQLiteContactStore(DependencyService.Get<ISQLiteDb>());
+            var pageService = new PageService();
+            ViewModel = new ContactBookViewModel(contactStore, pageService);
+
             InitializeComponent();
         }
 
-        protected override async void OnAppearing()
+        protected override void OnAppearing()
         {
-            if (_isDataLoaded)
-                return;
-
-            _isDataLoaded = true;
-
-            await LoadData();
+            ViewModel.LoadDataCommand.Execute(null);
 
             base.OnAppearing();
         }
 
-        public async Task LoadData()
+        void OnContactSelected(object sender, SelectedItemChangedEventArgs e)
         {
-          //  await _connection.DropTableAsync<Contact>();
-
-            await _connection.CreateTableAsync<Contact>();
-
-
-            var con = await _connection.Table<Contact>().ToListAsync();
-            _contacts = new ObservableCollection<Contact>(con);
-            
-
-            contacts.ItemsSource = _contacts;
+            ViewModel.SelectContactCommand.Execute(e.SelectedItem);
         }
 
-        async void OnAddContact(object sender, System.EventArgs e)
+        public ContactBookViewModel ViewModel
         {
-            var page = new ContactDetails(new Contact());
-
-            page.ContactAdded += (source, contact) =>
-            {
-                _contacts.Add(contact);
-
-            };
-
-           await LoadData();
-            await Navigation.PushModalAsync(page);
-        }
-
-        async void OnContactSelected(object sender, Xamarin.Forms.SelectedItemChangedEventArgs e)
-        {
-            if (contacts.SelectedItem == null)
-                return;
-
-            var selectedContact = e.SelectedItem as Contact;
-
-            contacts.SelectedItem = null;
-
-            var page = new ContactDetails(selectedContact);
-            page.ContactUpdated += (source, contact) =>
-            {
-                selectedContact.Id = contact.Id;
-                selectedContact.FirstName = contact.FirstName;
-                selectedContact.LastName = contact.LastName;
-                selectedContact.Phone = contact.Phone;
-                selectedContact.Email = contact.Email;
-                selectedContact.IsBlocked = contact.IsBlocked;
-
-            };
-
-            
-            await Navigation.PushModalAsync(page);
-        }
-
-        async void OnDeleteContact(object sender, System.EventArgs e)
-        {
-            var contact = (sender as MenuItem).CommandParameter as Contact;
-
-            if (await DisplayAlert("Warning", $"Are you sure you want to delete {contact.FullName}?", "Yes", "No"))
-                _contacts.Remove(contact);
+            get { return BindingContext as ContactBookViewModel; }
+            set { BindingContext = value; }
         }
     }
 }

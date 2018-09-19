@@ -1,0 +1,13 @@
+F:\Documenten\Paul Verslag\MVVM Contactbook\SqliteOpdrachten\SqliteOpdrachten\obj\Debug\netstandard2.0\MVVM.csprojAssemblyReference.cache
+F:\Documenten\Paul Verslag\MVVM Contactbook\SqliteOpdrachten\SqliteOpdrachten\obj\Debug\netstandard2.0\App.xaml.g.cs
+F:\Documenten\Paul Verslag\MVVM Contactbook\SqliteOpdrachten\SqliteOpdrachten\obj\Debug\netstandard2.0\Views\ContactDetails.xaml.g.cs
+F:\Documenten\Paul Verslag\MVVM Contactbook\SqliteOpdrachten\SqliteOpdrachten\obj\Debug\netstandard2.0\Views\ContactsPage.xaml.g.cs
+F:\Documenten\Paul Verslag\MVVM Contactbook\SqliteOpdrachten\SqliteOpdrachten\obj\Debug\netstandard2.0\MVVM.csproj.CoreCompileInputs.cache
+F:\Documenten\Paul Verslag\MVVM Contactbook\SqliteOpdrachten\SqliteOpdrachten\obj\Debug\netstandard2.0\MVVM.AssemblyInfoInputs.cache
+F:\Documenten\Paul Verslag\MVVM Contactbook\SqliteOpdrachten\SqliteOpdrachten\obj\Debug\netstandard2.0\MVVM.AssemblyInfo.cs
+F:\Documenten\Paul Verslag\MVVM Contactbook\SqliteOpdrachten\SqliteOpdrachten\obj\Debug\netstandard2.0\MVVM.dll
+F:\Documenten\Paul Verslag\MVVM Contactbook\SqliteOpdrachten\SqliteOpdrachten\obj\Debug\netstandard2.0\MVVM.pdb
+F:\Documenten\Paul Verslag\MVVM Contactbook\SqliteOpdrachten\SqliteOpdrachten\bin\Debug\netstandard2.0\MVVM.deps.json
+F:\Documenten\Paul Verslag\MVVM Contactbook\SqliteOpdrachten\SqliteOpdrachten\bin\Debug\netstandard2.0\MVVM.dll
+F:\Documenten\Paul Verslag\MVVM Contactbook\SqliteOpdrachten\SqliteOpdrachten\bin\Debug\netstandard2.0\MVVM.pdb
+F:\Documenten\Paul Verslag\MVVM Contactbook\SqliteOpdrachten\SqliteOpdrachten\obj\Debug\netstandard2.0\XamlC.stamp

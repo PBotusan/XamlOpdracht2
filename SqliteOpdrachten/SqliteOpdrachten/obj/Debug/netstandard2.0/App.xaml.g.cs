@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("SqliteOpdrachten.App.xaml", "App.xaml", typeof(global::SqliteOpdrachten.App))]
+[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("MVVM.App.xaml", "App.xaml", typeof(global::SqliteOpdrachten.App))]
 
 namespace SqliteOpdrachten {
     

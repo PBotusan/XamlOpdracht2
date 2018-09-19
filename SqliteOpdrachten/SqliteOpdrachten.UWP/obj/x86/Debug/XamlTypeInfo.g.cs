@@ -12,14 +12,14 @@ namespace SqliteOpdrachten.UWP
 {
     public partial class App : global::Windows.UI.Xaml.Markup.IXamlMetadataProvider
     {
-        private global::SqliteOpdrachten.UWP.SqliteOpdrachten_UWP_XamlTypeInfo.XamlMetaDataProvider __appProvider;
-        private global::SqliteOpdrachten.UWP.SqliteOpdrachten_UWP_XamlTypeInfo.XamlMetaDataProvider _AppProvider
+        private global::SqliteOpdrachten.UWP.MVVM_UWP_XamlTypeInfo.XamlMetaDataProvider __appProvider;
+        private global::SqliteOpdrachten.UWP.MVVM_UWP_XamlTypeInfo.XamlMetaDataProvider _AppProvider
         {
             get
             {
                 if (__appProvider == null)
                 {
-                    __appProvider = new global::SqliteOpdrachten.UWP.SqliteOpdrachten_UWP_XamlTypeInfo.XamlMetaDataProvider();
+                    __appProvider = new global::SqliteOpdrachten.UWP.MVVM_UWP_XamlTypeInfo.XamlMetaDataProvider();
                 }
                 return __appProvider;
             }
@@ -51,7 +51,7 @@ namespace SqliteOpdrachten.UWP
     }
 }
 
-namespace SqliteOpdrachten.UWP.SqliteOpdrachten_UWP_XamlTypeInfo
+namespace SqliteOpdrachten.UWP.MVVM_UWP_XamlTypeInfo
 {
     /// <summary>
     /// Main class for providing metadata for the app or library
@@ -60,15 +60,15 @@ namespace SqliteOpdrachten.UWP.SqliteOpdrachten_UWP_XamlTypeInfo
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     public sealed class XamlMetaDataProvider : global::Windows.UI.Xaml.Markup.IXamlMetadataProvider
     {
-        private global::SqliteOpdrachten.UWP.SqliteOpdrachten_UWP_XamlTypeInfo.XamlTypeInfoProvider _provider = null;
+        private global::SqliteOpdrachten.UWP.MVVM_UWP_XamlTypeInfo.XamlTypeInfoProvider _provider = null;
 
-        private global::SqliteOpdrachten.UWP.SqliteOpdrachten_UWP_XamlTypeInfo.XamlTypeInfoProvider Provider
+        private global::SqliteOpdrachten.UWP.MVVM_UWP_XamlTypeInfo.XamlTypeInfoProvider Provider
         {
             get
             {
                 if (_provider == null)
                 {
-                    _provider = new global::SqliteOpdrachten.UWP.SqliteOpdrachten_UWP_XamlTypeInfo.XamlTypeInfoProvider();
+                    _provider = new global::SqliteOpdrachten.UWP.MVVM_UWP_XamlTypeInfo.XamlTypeInfoProvider();
                 }
                 return _provider;
             }
@@ -115,7 +115,7 @@ namespace SqliteOpdrachten.UWP.SqliteOpdrachten_UWP_XamlTypeInfo
             {
                 xamlType = CreateXamlType(typeIndex);
             }
-            var userXamlType = xamlType as global::SqliteOpdrachten.UWP.SqliteOpdrachten_UWP_XamlTypeInfo.XamlUserType;
+            var userXamlType = xamlType as global::SqliteOpdrachten.UWP.MVVM_UWP_XamlTypeInfo.XamlUserType;
             if(xamlType == null || (userXamlType != null && userXamlType.IsReturnTypeStub && !userXamlType.IsLocalType))
             {
                 global::Windows.UI.Xaml.Markup.IXamlType libXamlType = CheckOtherMetadataProvidersForType(type);
@@ -151,7 +151,7 @@ namespace SqliteOpdrachten.UWP.SqliteOpdrachten_UWP_XamlTypeInfo
             {
                 xamlType = CreateXamlType(typeIndex);
             }
-            var userXamlType = xamlType as global::SqliteOpdrachten.UWP.SqliteOpdrachten_UWP_XamlTypeInfo.XamlUserType;
+            var userXamlType = xamlType as global::SqliteOpdrachten.UWP.MVVM_UWP_XamlTypeInfo.XamlUserType;
             if(xamlType == null || (userXamlType != null && userXamlType.IsReturnTypeStub && !userXamlType.IsLocalType))
             {
                 global::Windows.UI.Xaml.Markup.IXamlType libXamlType = CheckOtherMetadataProvidersForName(typeName);
@@ -256,8 +256,8 @@ namespace SqliteOpdrachten.UWP.SqliteOpdrachten_UWP_XamlTypeInfo
 
         private global::Windows.UI.Xaml.Markup.IXamlType CreateXamlType(int typeIndex)
         {
-            global::SqliteOpdrachten.UWP.SqliteOpdrachten_UWP_XamlTypeInfo.XamlSystemBaseType xamlType = null;
-            global::SqliteOpdrachten.UWP.SqliteOpdrachten_UWP_XamlTypeInfo.XamlUserType userType;
+            global::SqliteOpdrachten.UWP.MVVM_UWP_XamlTypeInfo.XamlSystemBaseType xamlType = null;
+            global::SqliteOpdrachten.UWP.MVVM_UWP_XamlTypeInfo.XamlUserType userType;
             string typeName = _typeNameTable[typeIndex];
             global::System.Type type = _typeTable[typeIndex];
 
@@ -265,26 +265,26 @@ namespace SqliteOpdrachten.UWP.SqliteOpdrachten_UWP_XamlTypeInfo
             {
 
             case 0:   //  Xamarin.Forms.Platform.UWP.WindowsPage
-                userType = new global::SqliteOpdrachten.UWP.SqliteOpdrachten_UWP_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Xamarin.Forms.Platform.UWP.WindowsBasePage"));
+                userType = new global::SqliteOpdrachten.UWP.MVVM_UWP_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Xamarin.Forms.Platform.UWP.WindowsBasePage"));
                 userType.Activator = Activate_0_WindowsPage;
                 xamlType = userType;
                 break;
 
             case 1:   //  Xamarin.Forms.Platform.UWP.WindowsBasePage
-                userType = new global::SqliteOpdrachten.UWP.SqliteOpdrachten_UWP_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType = new global::SqliteOpdrachten.UWP.MVVM_UWP_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
                 xamlType = userType;
                 break;
 
             case 2:   //  Windows.UI.Xaml.Controls.Page
-                xamlType = new global::SqliteOpdrachten.UWP.SqliteOpdrachten_UWP_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                xamlType = new global::SqliteOpdrachten.UWP.MVVM_UWP_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
             case 3:   //  Windows.UI.Xaml.Controls.UserControl
-                xamlType = new global::SqliteOpdrachten.UWP.SqliteOpdrachten_UWP_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                xamlType = new global::SqliteOpdrachten.UWP.MVVM_UWP_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
             case 4:   //  SqliteOpdrachten.UWP.MainPage
-                userType = new global::SqliteOpdrachten.UWP.SqliteOpdrachten_UWP_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Xamarin.Forms.Platform.UWP.WindowsPage"));
+                userType = new global::SqliteOpdrachten.UWP.MVVM_UWP_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Xamarin.Forms.Platform.UWP.WindowsPage"));
                 userType.Activator = Activate_4_MainPage;
                 userType.SetIsLocalType();
                 xamlType = userType;
@@ -351,7 +351,7 @@ namespace SqliteOpdrachten.UWP.SqliteOpdrachten_UWP_XamlTypeInfo
 
         private global::Windows.UI.Xaml.Markup.IXamlMember CreateXamlMember(string longMemberName)
         {
-            global::SqliteOpdrachten.UWP.SqliteOpdrachten_UWP_XamlTypeInfo.XamlMember xamlMember = null;
+            global::SqliteOpdrachten.UWP.MVVM_UWP_XamlTypeInfo.XamlMember xamlMember = null;
             // No Local Properties
             return xamlMember;
         }
@@ -407,9 +407,9 @@ namespace SqliteOpdrachten.UWP.SqliteOpdrachten_UWP_XamlTypeInfo
 
     [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Windows.UI.Xaml.Build.Tasks"," 10.0.16.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-    internal class XamlUserType : global::SqliteOpdrachten.UWP.SqliteOpdrachten_UWP_XamlTypeInfo.XamlSystemBaseType
+    internal class XamlUserType : global::SqliteOpdrachten.UWP.MVVM_UWP_XamlTypeInfo.XamlSystemBaseType
     {
-        global::SqliteOpdrachten.UWP.SqliteOpdrachten_UWP_XamlTypeInfo.XamlTypeInfoProvider _provider;
+        global::SqliteOpdrachten.UWP.MVVM_UWP_XamlTypeInfo.XamlTypeInfoProvider _provider;
         global::Windows.UI.Xaml.Markup.IXamlType _baseType;
         bool _isArray;
         bool _isMarkupExtension;
@@ -423,7 +423,7 @@ namespace SqliteOpdrachten.UWP.SqliteOpdrachten_UWP_XamlTypeInfo
         global::System.Collections.Generic.Dictionary<string, string> _memberNames;
         global::System.Collections.Generic.Dictionary<string, object> _enumValues;
 
-        public XamlUserType(global::SqliteOpdrachten.UWP.SqliteOpdrachten_UWP_XamlTypeInfo.XamlTypeInfoProvider provider, string fullName, global::System.Type fullType, global::Windows.UI.Xaml.Markup.IXamlType baseType)
+        public XamlUserType(global::SqliteOpdrachten.UWP.MVVM_UWP_XamlTypeInfo.XamlTypeInfoProvider provider, string fullName, global::System.Type fullType, global::Windows.UI.Xaml.Markup.IXamlType baseType)
             :base(fullName, fullType)
         {
             _provider = provider;
@@ -620,7 +620,7 @@ namespace SqliteOpdrachten.UWP.SqliteOpdrachten_UWP_XamlTypeInfo
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     internal class XamlMember : global::Windows.UI.Xaml.Markup.IXamlMember
     {
-        global::SqliteOpdrachten.UWP.SqliteOpdrachten_UWP_XamlTypeInfo.XamlTypeInfoProvider _provider;
+        global::SqliteOpdrachten.UWP.MVVM_UWP_XamlTypeInfo.XamlTypeInfoProvider _provider;
         string _name;
         bool _isAttachable;
         bool _isDependencyProperty;
@@ -629,7 +629,7 @@ namespace SqliteOpdrachten.UWP.SqliteOpdrachten_UWP_XamlTypeInfo
         string _typeName;
         string _targetTypeName;
 
-        public XamlMember(global::SqliteOpdrachten.UWP.SqliteOpdrachten_UWP_XamlTypeInfo.XamlTypeInfoProvider provider, string name, string typeName)
+        public XamlMember(global::SqliteOpdrachten.UWP.MVVM_UWP_XamlTypeInfo.XamlTypeInfoProvider provider, string name, string typeName)
         {
             _name = name;
             _typeName = typeName;
