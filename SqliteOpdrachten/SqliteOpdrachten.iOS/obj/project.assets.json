@@ -1017,25 +1017,6 @@
           "build/netstandard2.0/Xamarin.Forms.props": {},
           "build/netstandard2.0/Xamarin.Forms.targets": {}
         }
-      },
-      "MVVM/1.0.0": {
-        "type": "project",
-        "framework": ".NETStandard,Version=v2.0",
-        "dependencies": {
-          "Microsoft.EntityFrameworkCore.Sqlite": "2.1.3",
-          "Microsoft.EntityFrameworkCore.Sqlite.Core": "2.1.3",
-          "Microsoft.Net.Http": "2.2.29",
-          "Newtonsoft.Json": "11.0.2",
-          "System.Buffers": "4.5.0",
-          "Xamarin.Forms": "3.1.0.697729",
-          "sqlite-net-pcl": "1.5.231"
-        },
-        "compile": {
-          "bin/placeholder/MVVM.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/MVVM.dll": {}
-        }
       }
     },
     "Xamarin.iOS,Version=v1.0/win": {
@@ -1993,25 +1974,6 @@
         "build": {
           "build/netstandard2.0/Xamarin.Forms.props": {},
           "build/netstandard2.0/Xamarin.Forms.targets": {}
-        }
-      },
-      "MVVM/1.0.0": {
-        "type": "project",
-        "framework": ".NETStandard,Version=v2.0",
-        "dependencies": {
-          "Microsoft.EntityFrameworkCore.Sqlite": "2.1.3",
-          "Microsoft.EntityFrameworkCore.Sqlite.Core": "2.1.3",
-          "Microsoft.Net.Http": "2.2.29",
-          "Newtonsoft.Json": "11.0.2",
-          "System.Buffers": "4.5.0",
-          "Xamarin.Forms": "3.1.0.697729",
-          "sqlite-net-pcl": "1.5.231"
-        },
-        "compile": {
-          "bin/placeholder/MVVM.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/MVVM.dll": {}
         }
       }
     },
@@ -2971,25 +2933,6 @@
           "build/netstandard2.0/Xamarin.Forms.props": {},
           "build/netstandard2.0/Xamarin.Forms.targets": {}
         }
-      },
-      "MVVM/1.0.0": {
-        "type": "project",
-        "framework": ".NETStandard,Version=v2.0",
-        "dependencies": {
-          "Microsoft.EntityFrameworkCore.Sqlite": "2.1.3",
-          "Microsoft.EntityFrameworkCore.Sqlite.Core": "2.1.3",
-          "Microsoft.Net.Http": "2.2.29",
-          "Newtonsoft.Json": "11.0.2",
-          "System.Buffers": "4.5.0",
-          "Xamarin.Forms": "3.1.0.697729",
-          "sqlite-net-pcl": "1.5.231"
-        },
-        "compile": {
-          "bin/placeholder/MVVM.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/MVVM.dll": {}
-        }
       }
     },
     "Xamarin.iOS,Version=v1.0/win-x86": {
@@ -3947,25 +3890,6 @@
         "build": {
           "build/netstandard2.0/Xamarin.Forms.props": {},
           "build/netstandard2.0/Xamarin.Forms.targets": {}
-        }
-      },
-      "MVVM/1.0.0": {
-        "type": "project",
-        "framework": ".NETStandard,Version=v2.0",
-        "dependencies": {
-          "Microsoft.EntityFrameworkCore.Sqlite": "2.1.3",
-          "Microsoft.EntityFrameworkCore.Sqlite.Core": "2.1.3",
-          "Microsoft.Net.Http": "2.2.29",
-          "Newtonsoft.Json": "11.0.2",
-          "System.Buffers": "4.5.0",
-          "Xamarin.Forms": "3.1.0.697729",
-          "sqlite-net-pcl": "1.5.231"
-        },
-        "compile": {
-          "bin/placeholder/MVVM.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/MVVM.dll": {}
         }
       }
     }
@@ -7465,16 +7389,10 @@
         "xamarin.forms.3.1.0.697729.nupkg.sha512",
         "xamarin.forms.nuspec"
       ]
-    },
-    "MVVM/1.0.0": {
-      "type": "project",
-      "path": "../SqliteOpdrachten/MVVM.csproj",
-      "msbuildProject": "../SqliteOpdrachten/MVVM.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "Xamarin.iOS,Version=v1.0": [
-      "MVVM >= 1.0.0",
       "Microsoft.EntityFrameworkCore.Sqlite >= 2.1.3",
       "Microsoft.EntityFrameworkCore.Sqlite.Core >= 2.1.3",
       "Microsoft.Net.Http >= 2.2.29",
@@ -7485,20 +7403,20 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Roy\\.nuget\\packages\\": {}
+    "C:\\Users\\User\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\Documenten\\Paul Verslag\\MVVM Contactbook\\SqliteOpdrachten\\SqliteOpdrachten.iOS\\MVVM.iOS.csproj",
+      "projectUniqueName": "C:\\Users\\User\\Documents\\GitHub\\XamlOpdracht2\\SqliteOpdrachten\\SqliteOpdrachten.iOS\\MVVM.iOS.csproj",
       "projectName": "MVVM.iOS",
-      "projectPath": "F:\\Documenten\\Paul Verslag\\MVVM Contactbook\\SqliteOpdrachten\\SqliteOpdrachten.iOS\\MVVM.iOS.csproj",
-      "packagesPath": "C:\\Users\\Roy\\.nuget\\packages\\",
-      "outputPath": "F:\\Documenten\\Paul Verslag\\MVVM Contactbook\\SqliteOpdrachten\\SqliteOpdrachten.iOS\\obj\\",
+      "projectPath": "C:\\Users\\User\\Documents\\GitHub\\XamlOpdracht2\\SqliteOpdrachten\\SqliteOpdrachten.iOS\\MVVM.iOS.csproj",
+      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\User\\Documents\\GitHub\\XamlOpdracht2\\SqliteOpdrachten\\SqliteOpdrachten.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
-        "C:\\Users\\Roy\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -7506,15 +7424,12 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Users\\User\\AppData\\Roaming\\Cosmos User Kit\\Kernel\\packages": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "xamarinios10": {
-          "projectReferences": {
-            "F:\\Documenten\\Paul Verslag\\MVVM Contactbook\\SqliteOpdrachten\\SqliteOpdrachten\\MVVM.csproj": {
-              "projectPath": "F:\\Documenten\\Paul Verslag\\MVVM Contactbook\\SqliteOpdrachten\\SqliteOpdrachten\\MVVM.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       }
     },
