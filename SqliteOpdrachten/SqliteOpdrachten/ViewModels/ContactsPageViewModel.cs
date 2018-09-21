@@ -37,7 +37,7 @@ namespace ContactBook
 			SelectContactCommand = new Command<ContactViewModel>(async c => await SelectContact(c));
 			DeleteContactCommand = new Command<ContactViewModel>(async c => await DeleteContact(c));
 
-			// Subscribe to events 
+			
 			MessagingCenter.Subscribe<ContactDetailViewModel, Contact>
 				(this, Events.ContactAdded, OnContactAdded);
 
@@ -52,8 +52,7 @@ namespace ContactBook
 
 		private void OnContactUpdated(ContactDetailViewModel source, Contact contact)
 		{
-			// Here we need to find the corresponding Contact object in our 
-			// ObservableCollection first. 
+			
 			var contactInList = Contacts.Single(c => c.Id == contact.Id);
 
 			contactInList.Id = contact.Id;
