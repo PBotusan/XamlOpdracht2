@@ -11,7 +11,11 @@ namespace SqliteOpdrachten
         {
             InitializeComponent();
 
+<<<<<<< HEAD
+            MainPage = new StyleOpdrachten();
+=======
             MainPage = new ContactsPage();
+>>>>>>> f4323d5b83173f8c226b231a25e6f281733d8355
         }
 
         protected override void OnStart()

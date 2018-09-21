@@ -31,13 +31,29 @@
     <AppXManifest Include="F:\Documenten\Paul Verslag\MVVM Contactbook\SqliteOpdrachten\SqliteOpdrachten.UWP\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+<<<<<<< HEAD
       <Modified>2018-09-19T14:40:58.513</Modified>
+=======
+<<<<<<< HEAD
+      <Modified>2018-09-19T11:58:18.034</Modified>
+=======
+      <Modified>2018-09-19T14:11:16.192</Modified>
+>>>>>>> f4323d5b83173f8c226b231a25e6f281733d8355
+>>>>>>> 0f0a85e8deedb2d5567c92b4767e25c9c5ada9fe
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="F:\Documenten\Paul Verslag\MVVM Contactbook\SqliteOpdrachten\SqliteOpdrachten.UWP\bin\x86\Debug\SqliteOpdrachten.UWP.exe">
       <PackagePath>entrypoint\SqliteOpdrachten.UWP.exe</PackagePath>
+<<<<<<< HEAD
       <Modified>2018-09-19T14:40:57.066</Modified>
+=======
+<<<<<<< HEAD
+      <Modified>2018-09-19T11:58:16.569</Modified>
+=======
+      <Modified>2018-09-19T14:11:14.785</Modified>
+>>>>>>> f4323d5b83173f8c226b231a25e6f281733d8355
+>>>>>>> 0f0a85e8deedb2d5567c92b4767e25c9c5ada9fe
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Roy\.nuget\packages\microsoft.data.sqlite.core\2.1.0\lib\netstandard2.0\Microsoft.Data.Sqlite.dll">
       <PackagePath>Microsoft.Data.Sqlite.dll</PackagePath>
@@ -827,9 +843,19 @@
       <PackagePath>Xamarin.Forms.Xaml.dll</PackagePath>
       <Modified>2018-07-26T17:16:10.000</Modified>
     </AppxPackagedFile>
+<<<<<<< HEAD
+    <AppxPackagedFile Include="F:\Documenten\Paul Verslag\XamlOpdracht2\SqliteOpdrachten\SqliteOpdrachten\bin\Debug\netstandard2.0\SqliteOpdrachten.dll">
+      <PackagePath>SqliteOpdrachten.dll</PackagePath>
+      <Modified>2018-09-19T11:58:08.680</Modified>
+=======
     <AppxPackagedFile Include="F:\Documenten\Paul Verslag\MVVM Contactbook\SqliteOpdrachten\SqliteOpdrachten\bin\Debug\netstandard2.0\MVVM.dll">
       <PackagePath>MVVM.dll</PackagePath>
+<<<<<<< HEAD
       <Modified>2018-09-19T14:40:50.424</Modified>
+=======
+      <Modified>2018-09-19T14:11:08.740</Modified>
+>>>>>>> f4323d5b83173f8c226b231a25e6f281733d8355
+>>>>>>> 0f0a85e8deedb2d5567c92b4767e25c9c5ada9fe
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Documenten\Paul Verslag\MVVM Contactbook\SqliteOpdrachten\SqliteOpdrachten.UWP\Assets\LargeTile.scale-100.png">
       <PackagePath>Assets\LargeTile.scale-100.png</PackagePath>
@@ -976,11 +1002,27 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Documenten\Paul Verslag\MVVM Contactbook\SqliteOpdrachten\SqliteOpdrachten.UWP\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
+<<<<<<< HEAD
       <Modified>2018-09-19T14:40:56.806</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Documenten\Paul Verslag\MVVM Contactbook\SqliteOpdrachten\SqliteOpdrachten.UWP\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
       <Modified>2018-09-19T14:40:56.806</Modified>
+=======
+<<<<<<< HEAD
+      <Modified>2018-09-19T11:58:16.284</Modified>
+=======
+      <Modified>2018-09-19T14:11:14.520</Modified>
+>>>>>>> f4323d5b83173f8c226b231a25e6f281733d8355
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Documenten\Paul Verslag\MVVM Contactbook\SqliteOpdrachten\SqliteOpdrachten.UWP\bin\x86\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+<<<<<<< HEAD
+      <Modified>2018-09-19T11:58:16.284</Modified>
+=======
+      <Modified>2018-09-19T14:11:14.520</Modified>
+>>>>>>> f4323d5b83173f8c226b231a25e6f281733d8355
+>>>>>>> 0f0a85e8deedb2d5567c92b4767e25c9c5ada9fe
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.16299.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -1041,7 +1083,15 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Documenten\Paul Verslag\MVVM Contactbook\SqliteOpdrachten\SqliteOpdrachten.UWP\bin\x86\Debug\Core\SqliteOpdrachten.UWP.exe">
       <PackagePath>SqliteOpdrachten.UWP.exe</PackagePath>
+<<<<<<< HEAD
       <Modified>2018-09-19T14:40:57.892</Modified>
+=======
+<<<<<<< HEAD
+      <Modified>2018-09-19T11:58:17.381</Modified>
+=======
+      <Modified>2018-09-19T14:11:15.536</Modified>
+>>>>>>> f4323d5b83173f8c226b231a25e6f281733d8355
+>>>>>>> 0f0a85e8deedb2d5567c92b4767e25c9c5ada9fe
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
